@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "heldenmod",
+  "version": "1.0.0",
+  "name": "Helden & Schurken",
+  "description": "2 Superhelden und 2 Superschurken mit eigenen Anzügen, Waffen und Fähigkeiten per Tastendruck.",
+  "authors": ["Du"],
+  "license": "CC0-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["de.heldenmod.HeldenMod"],
+    "client": ["de.heldenmod.HeldenModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~26.1",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
